@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scheduler</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+        <div class="d-flex flex-row">
+            <div id="nineAm" class="p-2 time">09AM</div>
+            <input class="p-8 flex-grow-1 bd-highlight task" type="text"></input>
+            <button class="p-2 save" type="button"><i class="far fa-save"></i></button>
+        </div>
+        <div class="d-flex flex-row">
+          <div id="tenAm" class="p-2 time">10AM</div>
+          <input class="p-8 flex-grow-1 bd-highlight task" type="text"></input>
+          <button class="p-2 save" type="button"><i class="far fa-save"></i></button>
+        </div>
+        <div class="d-flex flex-row">
+          <div id="elevenAm" class="p-2 time">11AM</div>
+          <input class="p-8 flex-grow-1 bd-highlight task" type="text"></input>
+          <button class="p-2 save" type="button"><i class="far fa-save"></i></button>
+        </div>
+        <div class="d-flex flex-row">
+          <div id="twelvePm" class="p-2 time">12PM</div>
+          <input class="p-8 flex-grow-1 bd-highlight task" type="text"></input>
+          <button class="p-2 save" type="button"><i class="far fa-save"></i></button>
+        </div>
+        <div class="d-flex flex-row">
+          <div id="onePm" class="p-2 time">01PM</div>
+          <input class="p-8 flex-grow-1 bd-highlight task" type="text"></input>
+          <button class="p-2 save" type="button"><i class="far fa-save"></i></button>
+        </div>
+        <div class="d-flex flex-row">
+          <div id="twoPm" class="p-2 time">02PM</div>
+          <input class="p-8 flex-grow-1 bd-highlight task" type="text"></input>
+          <button class="p-2 save" type="button"><i class="far fa-save"></i></button>
+        </div>
+        <div class="d-flex flex-row">
+          <div id="threePm" class="p-2 time">03PM</div>
+          <input class="p-8 flex-grow-1 bd-highlight task" type="text"></input>
+          <button class="p-2 save" type="button"><i class="far fa-save"></i></button>
+        </div>
+        <div class="d-flex flex-row">
+          <div id="fourPm" class="p-2 time">04PM</div>
+          <input class="p-8 flex-grow-1 bd-highlight task" type="text"></input>
+          <button class="p-2 save" type="button"><i class="far fa-save"></i></button>
+        </div>
+        <div class="d-flex flex-row lastRow">
+          <div id="fivePm" class="p-2 time">05PM</div>
+          <input class="p-8 flex-grow-1 bd-highlight task" type="text"></input>
+          <button class="p-2 save" type="button"><i class="far fa-save"></i></button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script/script.js"></script>
+  </body>
 </html>

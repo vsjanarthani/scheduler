@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mobile First design */
+
+/* design for header */
+.display-3 {
+    font-size: larger;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.lead {
+    font-size: medium;
+    font-family: cursive;
+    text-align: center;
+}
+
+/* design for schedule container */
+.time {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid white;
+    font-size: smaller;
+    text-align: center;
+}
+
+.task {
+    background-color: lightgrey;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.save {
+    background-color: teal;
+    border-radius: 0 10px 10px 0;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.lastRow {
+    border-bottom: 1px solid lightgrey;
+}
