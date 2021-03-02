@@ -5,7 +5,7 @@ This webpage displays a work day scheduler for Current/today's date. You can sch
 The time blocks are color-coded to indicate whether they are in the past, present, or future. To enter or edit an event, click into a time block. To save the event click on the save button for that time block. The events are cleared from local storage the next day when you load the webpage.
 
 ## Live URL
-Please find the website deployed here - [(https:/)]
+Please find the website deployed here - [(https://vsjanarthani.github.io/scheduler/)]
 
 ## Built With
 * HTML
