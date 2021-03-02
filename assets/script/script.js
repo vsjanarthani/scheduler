@@ -39,16 +39,14 @@ $('.save').on('click', function() {
     var eventKey = $(this).prev('input').prev('section')[0].outerText;
     var eventValue = $(this).prev('input')[0].value;
     var currentDate = moment().format("MM-DD-YYYY");
-    if (eventValue.length != 0 ){
-        localStorage.setItem('currentDate', currentDate);
-        localStorage.setItem(eventKey,eventValue);
-    }
+    localStorage.setItem('currentDate', currentDate);
+    localStorage.setItem(eventKey,eventValue);   
 });
 
 // function to display saved events from local storage
 function display() {
     $('section').each(function () {
-    var myValue = localStorage.getItem($(this)[0].outerText);
+    myValue = localStorage.getItem($(this)[0].outerText);
     if (myValue !=null) {
             $(this).next('input')[0].value = myValue;
     } else {

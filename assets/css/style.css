@@ -66,3 +66,34 @@ body{
 .lastRow {
     border-bottom: 1px solid lightgrey;
 }
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) { 
+    .container {
+        display: block;
+        width: 100vw;
+    }
+    .display-3 {
+       font-size: 4vw; 
+    }
+    .lead {
+        font-size: 2vw; 
+    }
+    .time,
+    .task {
+        font-size: 1.5vw;
+    }
+    .save {
+        width: 80px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 1200px) {
+    .time,
+    .task {
+        font-size: 1.2vw;
+    }
+}
